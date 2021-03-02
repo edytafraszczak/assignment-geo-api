@@ -2,7 +2,7 @@ import requests
 
 
 class GeolocationClient:
-    BASE_URL = "http://localhost:8000/api/"
+    BASE_URL = "https://assignment-geo-api.herokuapp.com/api/" # for localhost testing http://localhost:8000/api/
     LOGIN_URL = f"{BASE_URL}token/"
     GEOLOCATION_URL = f"{BASE_URL}geolocation/"
 
